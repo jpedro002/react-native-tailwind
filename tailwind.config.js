@@ -5,7 +5,10 @@ module.exports = {
 	presets: [require('nativewind/preset')],
 	theme: {
 		extend: {
-			
+			fontFamily: {
+				'roboto-regular': ['Roboto_400Regular', 'sans-serif'],
+				'roboto-bold': ['Roboto_700Bold', 'sans-serif'],
+			},
 		},
 	},
 	plugins: [],
